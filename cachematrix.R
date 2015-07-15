@@ -1,6 +1,7 @@
 ## Some computations in R are potentially time-consuming, 
 ## e.g. the computation of the inverse of a given matrix. 
 ## These functions are used to cache the inverse of a matrix.
+## A full example can be found at the bottom of the page.
 
 ## This function creates a special object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
